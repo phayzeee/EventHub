@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cotton_pink"
+    tools:context=".AdminView">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/admin_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/muave_pink"
+        android:elevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/muave_pink"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textSize="22dp"
+                android:fontFamily="@font/segoeb"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:text="Admin Panel"
+                android:textColor="@color/customer_text"
+                />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"
+        android:layout_below="@id/admin_toolbar"
+        android:text="Name : "
+        android:textSize="20dp"
+        android:textColor="@color/customer_text"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname_db"
+        android:layout_below="@id/admin_toolbar"
+        android:layout_toEndOf="@+id/fname"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pno"
+        android:layout_below="@id/fname"
+        android:text="Phone : "
+        android:textSize="20dp"
+        android:textColor="@color/customer_text"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pno_db"
+        android:layout_below="@id/fname"
+        android:layout_toEndOf="@+id/pno"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vn"
+        android:layout_below="@id/pno"
+        android:text="Venue : "
+        android:textSize="20dp"
+        android:textColor="@color/customer_text"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vn_db"
+        android:layout_below="@id/pno"
+        android:layout_toEndOf="@+id/vn"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cat"
+        android:layout_below="@id/vn"
+        android:text="Caterers : "
+        android:textSize="20dp"
+        android:textColor="@color/customer_text"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cat_db"
+        android:layout_below="@id/vn"
+        android:layout_toEndOf="@+id/cat"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dec"
+        android:layout_below="@id/cat"
+        android:text="Decorators : "
+        android:textSize="20dp"
+        android:textColor="@color/customer_text"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dec_db"
+        android:layout_below="@id/cat"
+        android:layout_toEndOf="@+id/dec"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pto"
+        android:layout_below="@id/dec"
+        android:text="Photographers : "
+        android:textSize="20dp"
+        android:textColor="@color/customer_text"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pto_db"
+        android:layout_below="@id/dec"
+        android:layout_toEndOf="@+id/pto"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        />
+
+
+
+</RelativeLayout>

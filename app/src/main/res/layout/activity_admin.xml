@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cotton_pink"
+    tools:context=".Admin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/firstlayout"
+        android:background="@drawable/topbox"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_applogo"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/admin_edt"
+        android:layout_below="@+id/firstlayout"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edt_bg"
+        android:hint="Admin"
+        android:textColorHint="#836C83"
+        android:paddingStart="12dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/pass_edt"
+        android:layout_below="@+id/admin_edt"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edt_bg"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="#836C83"
+        android:paddingStart="12dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/login_btn"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pass_edt"
+        android:text="LOGIN"
+        android:textSize="18dp"
+        />
+
+</RelativeLayout>

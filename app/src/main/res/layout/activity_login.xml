@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cotton_pink"
+    tools:context=".Login">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/first"
+        android:background="@drawable/topbox"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_applogo"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/customer_btn"
+        android:background="@drawable/text_bg"
+        android:layout_below="@+id/first"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="100dp"
+        android:text="Use as guest"
+        android:fontFamily="@font/segoeb"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/admin_btn"
+        android:background="@drawable/text_bg"
+        android:layout_below="@+id/customer_btn"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:text="Use as Admin"
+        android:fontFamily="@font/segoeb"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copyright_txt"
+        android:layout_alignParentBottom="true"
+        android:text="Copyright All Rights Reserved"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/segoeui"
+        android:textSize="14dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copyright_logo"
+        android:layout_toEndOf="@+id/copyright_txt"
+        android:src="@drawable/ic_baseline_copyright"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="38dp"
+        />
+
+
+
+</RelativeLayout>

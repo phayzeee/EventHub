@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="6dp"
+    android:background="#ffffff"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+
+    <ImageView
+        android:id="@+id/venue_img"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/venue_a" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/venue_name"
+        android:layout_below="@+id/venue_img"
+        android:text="Venue Name"
+        android:textColor="@color/customer_text"
+        android:fontFamily="@font/segoeb"
+        android:textSize="18dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/venue_price"
+        android:layout_below="@id/venue_img"
+        android:text="Venue Price"
+        android:textColor="@color/customer_text"
+        android:fontFamily="@font/segoeb"
+        android:textSize="18dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_alignParentRight="true"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/text_bg"
+        android:id="@+id/venue_btn"
+        android:layout_below="@id/venue_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="BOOK"
+        android:textSize="16dp"
+        android:fontFamily="@font/segoeb"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>
