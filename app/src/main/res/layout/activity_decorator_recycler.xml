@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cotton_pink"
-    tools:context=".DecoratorRecycler">
+    android:background="@color/customer_text"
+    tools:context=".recyclerview.DecoratorRecycler">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/dec_toolbar"

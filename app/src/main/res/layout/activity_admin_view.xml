@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cotton_pink"
-    tools:context=".AdminView">
+    android:background="@color/customer_text"
+    tools:context=".admin.AdminView">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/admin_toolbar"
@@ -42,7 +42,7 @@
         android:layout_below="@id/admin_toolbar"
         android:text="Name : "
         android:textSize="20dp"
-        android:textColor="@color/customer_text"
+        android:textColor="@color/muave_pink"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="60dp"
         android:layout_marginStart="40dp"
@@ -57,7 +57,6 @@
         android:textColor="@color/white"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="60dp"
-        android:layout_marginStart="40dp"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -66,7 +65,7 @@
         android:layout_below="@id/fname"
         android:text="Phone : "
         android:textSize="20dp"
-        android:textColor="@color/customer_text"
+        android:textColor="@color/muave_pink"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="10dp"
         android:layout_marginStart="40dp"
@@ -81,7 +80,6 @@
         android:textColor="@color/white"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="10dp"
-        android:layout_marginStart="40dp"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -90,7 +88,7 @@
         android:layout_below="@id/pno"
         android:text="Venue : "
         android:textSize="20dp"
-        android:textColor="@color/customer_text"
+        android:textColor="@color/muave_pink"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="10dp"
         android:layout_marginStart="40dp"
@@ -105,7 +103,6 @@
         android:textColor="@color/white"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="10dp"
-        android:layout_marginStart="40dp"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -114,7 +111,7 @@
         android:layout_below="@id/vn"
         android:text="Caterers : "
         android:textSize="20dp"
-        android:textColor="@color/customer_text"
+        android:textColor="@color/muave_pink"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="10dp"
         android:layout_marginStart="40dp"
@@ -129,7 +126,6 @@
         android:textColor="@color/white"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="10dp"
-        android:layout_marginStart="40dp"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -138,7 +134,7 @@
         android:layout_below="@id/cat"
         android:text="Decorators : "
         android:textSize="20dp"
-        android:textColor="@color/customer_text"
+        android:textColor="@color/muave_pink"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="10dp"
         android:layout_marginStart="40dp"
@@ -153,7 +149,6 @@
         android:textColor="@color/white"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="10dp"
-        android:layout_marginStart="40dp"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -162,7 +157,7 @@
         android:layout_below="@id/dec"
         android:text="Photographers : "
         android:textSize="20dp"
-        android:textColor="@color/customer_text"
+        android:textColor="@color/muave_pink"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="10dp"
         android:layout_marginStart="40dp"
@@ -177,8 +172,30 @@
         android:textColor="@color/white"
         android:fontFamily="@font/segoeb"
         android:layout_marginTop="10dp"
-        android:layout_marginStart="40dp"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:text="Total: "
+        android:textSize="20dp"
+        android:textColor="@color/muave_pink"
+        android:fontFamily="@font/segoeb"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        />
+
+    <TextView
+        android:id="@+id/total_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:layout_toEndOf="@+id/total"
+        android:fontFamily="@font/segoeb"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
 
 
 

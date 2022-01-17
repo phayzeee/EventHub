@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cotton_pink"
-    tools:context=".Admin">
+    android:background="@color/muave_pink"
+    tools:context=".admin.Admin">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -58,8 +58,10 @@
         android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/pass_edt"
+        android:textColor="@color/muave_pink"
         android:text="LOGIN"
         android:textSize="18dp"
+        android:fontFamily="@font/segoeb"
         />
 
 </RelativeLayout>

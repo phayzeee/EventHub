@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cotton_pink"
-    tools:context=".Login">
+    android:background="@color/muave_pink"
+    tools:context=".activities.Login">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="300dp"
@@ -30,7 +30,7 @@
         android:layout_marginTop="100dp"
         android:text="Use as guest"
         android:fontFamily="@font/segoeb"
-        android:textColor="@color/white"
+        android:textColor="@color/muave_pink"
         android:textSize="20dp"
         />
     <Button
@@ -42,7 +42,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginTop="40dp"
-        android:textColor="@color/white"
+        android:textColor="@color/muave_pink"
         android:text="Use as Admin"
         android:fontFamily="@font/segoeb"
         android:textSize="20dp"
@@ -54,7 +54,7 @@
         android:id="@+id/copyright_txt"
         android:layout_alignParentBottom="true"
         android:text="Copyright All Rights Reserved"
-        android:textColor="@color/white"
+        android:textColor="@color/muave_pink"
         android:layout_centerInParent="true"
         android:layout_marginBottom="40dp"
         android:fontFamily="@font/segoeui"

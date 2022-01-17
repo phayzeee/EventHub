@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:elevation="6dp"
-    android:background="#ffffff"
+    android:background="@color/muave_pink"
     android:layout_marginTop="8dp"
     android:layout_marginStart="8dp"
     android:layout_marginEnd="8dp">
@@ -50,10 +50,10 @@
         android:layout_below="@id/caterer_name"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
-        android:text="BOOK"
+        android:text="Add To Cart"
         android:textSize="16dp"
         android:fontFamily="@font/segoeb"
-        android:textColor="@color/white"
+        android:textColor="@color/muave_pink"
         />
 
 </RelativeLayout>

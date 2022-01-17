@@ -5,8 +5,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fillViewport="true"
-    android:background="@color/cotton_pink"
-    tools:context=".Customer">
+    android:background="@color/muave_pink"
+    tools:context=".activities.Customer">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,13 +16,13 @@
         android:id="@+id/first_toolbar"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:background="@color/muave_pink"
+        android:background="@color/customer_text"
         android:elevation="3dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/muave_pink"
+            android:background="@color/customer_text"
             >
             <TextView
                 android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
                 android:layout_centerVertical="true"
                 android:layout_gravity="center"
                 android:text="Home"
-                android:textColor="@color/customer_text"
+                android:textColor="@color/muave_pink"
                 android:id="@+id/toolbar_title"
                 />
 
@@ -49,25 +49,24 @@
 
 
         </RelativeLayout>
-
     </androidx.appcompat.widget.Toolbar>
 
 
     <LinearLayout
-        android:layout_width="180dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:id="@+id/first_linear"
         android:orientation="vertical"
         android:layout_below="@+id/first_toolbar"
         android:background="@drawable/rounded_squarebox"
         android:layout_marginTop="30dp"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="30dp"
         android:gravity="center"
         android:clickable="true"
         >
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:id="@+id/img_a"
             android:src="@drawable/location"
             />
@@ -82,7 +81,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="180dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:id="@+id/sec_linear"
         android:orientation="vertical"
@@ -90,14 +89,14 @@
         android:background="@drawable/rounded_squarebox"
         android:layout_below="@+id/first_toolbar"
         android:layout_marginTop="30dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="20dp"
         android:layout_marginEnd="15dp"
         android:gravity="center"
         android:clickable="true"
         >
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:id="@+id/img_b"
             android:src="@drawable/meal"
             />
@@ -108,25 +107,25 @@
             android:text="CATERERS"
             android:fontFamily="@font/segoeb"
             android:textSize="20dp"
-            android:textColor="#EC43EF"
+            android:textColor="@color/customer_text"
             />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="180dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:id="@+id/third_linear"
         android:orientation="vertical"
         android:layout_below="@+id/first_linear"
         android:background="@drawable/rounded_squarebox"
         android:layout_marginTop="100dp"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="30dp"
         android:gravity="center"
         android:clickable="true"
         >
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:id="@+id/img_c"
             android:src="@drawable/dec"
             />
@@ -137,12 +136,12 @@
             android:text="DECORATORS"
             android:fontFamily="@font/segoeb"
             android:textSize="20dp"
-            android:textColor="#EC43EF"
+            android:textColor="@color/customer_text"
             />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="180dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:id="@+id/fourth_linear"
         android:orientation="vertical"
@@ -150,14 +149,14 @@
         android:layout_toEndOf="@+id/third_linear"
         android:background="@drawable/rounded_squarebox"
         android:layout_marginTop="100dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="20dp"
         android:layout_marginEnd="15dp"
         android:gravity="center"
         android:clickable="true"
         >
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:id="@+id/img_d"
             android:src="@drawable/photo"
             />
@@ -165,12 +164,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/text_d"
-            android:text="PHOTOGRAPHER"
+            android:text="PHOTOGRAPHY"
             android:fontFamily="@font/segoeb"
             android:textSize="20dp"
-            android:textColor="#EC43EF"
+            android:textColor="@color/customer_text"
             />
     </LinearLayout>
+
+
     </RelativeLayout>
 
 
